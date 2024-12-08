@@ -1,0 +1,264 @@
+ /* home page  */
+ .home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7)0 100%) , url(../imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ }
+ h1, h2, h3, h5, h5, h6{
+    font-family: "Montserrat", sans-serif;
+ }
+ body{
+    font-family: "Poppins", sans-serif;
+ }
+ .title-a{
+    font-weight: 800;
+    font-size: 50px;
+ }
+ .title-b{
+    font-weight: 200;
+    font-size: 60x; 
+ }
+ .home img{
+    width: 100%;
+ }
+.countair p{
+    font-size: 60px;
+    text-align: center;
+}
+.countair h1{
+    font-size: 50px;
+    text-align: center;
+}
+.navbar .navbar-nav .nav-item>a {
+    color: #000;
+}
+.navbar-brand{
+    font-size: x-large;
+    font-weight: 700;
+}
+.icon i{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    margin-top: 200px;
+}
+ /* About page  */
+ .about-img{
+    width: 30%;
+    position: absolute;
+    left:100px
+ }
+ .about-img img{
+    width: 100%;
+ }
+ .about-content{
+    width: 50%;
+    position: absolute;
+    right: 120px;
+ }
+.about-content h1{
+    font-weight: 700;
+}
+button:hover .btn{
+    background-color: black;
+} 
+.progress div{
+    font-size: larger;
+    font-weight: 500;
+}
+.progressbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.progressbar p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.progressbar h6{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.x:hover{
+    background-color: white;
+    color: black;
+} 
+.y:hover{
+    background-color: black;
+    color: white;
+} 
+
+ /* Services page  */
+ .Services{
+    background-color: #f7f7f7;
+ }
+ .cont{
+    width: 80%;
+    margin: auto;
+}
+ .Services h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+ }
+.Services-box{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px 0px; 
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 10px 30px -8px rgba(76, 74, 74, 0.1);
+}
+.Services-box i{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-color:  #f7f7f7;;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+}
+.Services-box i:hover{
+    background-color: black;
+    color: white;
+}
+.item h3{
+    font-weight: 600;
+}
+ /* Portfolio page  */
+ .portfolio-box{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px 0px; 
+    text-align: center;
+    background-color: white;
+    position: relative;
+ }
+ .portfolio-box img{
+    width: 100%;
+ }
+ .portfolio .container h3{
+    font-size: 40px;
+    font-weight: 900;
+ }
+ .portfolio .container .head{
+    margin: 0px 15px;
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .portfolio .container .head span{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+ }
+ /* .portfolio-box-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid gray;
+    z-index: 3;
+ } */
+
+ /* Test page  */
+ /* Counter page  */
+.Counter .container h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+.Counter .container p{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.Counter .container i{
+    font-size: 30px;
+}
+ /* Our Team page  */
+ .card{
+    width: 30%;
+ }
+ .card-body{
+    background-color: rgba(52, 52, 52, .8);
+    color: white;
+ }
+ .card-body span{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .card-body h5{
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .team .container h3{
+    font-size: 40px;
+    font-weight: 900;
+ }
+ .team{
+    background-color: #f7f7f7;
+ }
+ /* Contact us page  */
+ .contact .co{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+ }
+ .contact .co h3{
+    font-size: 40px;
+    font-weight: 900;
+ }
+ .contact-icons i{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-color:  #f7f7f7;;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
+ .contact-icons i:hover{
+    background-color: black;
+    color: white;
+}
+.contact-icons h6{
+    font-size: 16px;
+    font-weight: 700;   
+}
+.contact-icons p{
+    font-size: 15px;
+    font-weight: 400;  
+    color: RGB(116, 129, 130); 
+}
+.contact .container button{
+    padding: 10px 40px;
+}
+/* footer  */
+ .footer{
+    height: 60px;
+    margin-top: 100px;
+    background-color: #343434;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
